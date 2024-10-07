@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto/Roboto-Regular.ttf) format(truetype);
+}
+
+*   {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+body    {
+    margin: 0;
+}
+
+img {
+    height:auto;
+}
+
+header  {
+    background-color: #1F2936;
+    margin: 0;
+    padding: 1% 2% 0 0;
+    color:#E4E5EB;
+    text-align: center;
+}
+
+#logo   {
+    width:10%;
+    border-radius: 30%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 1%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #E4E5EB;
+}
+
+header button {
+    border-radius: 20px;
+    background-color: #3782F5;
+    color: #E4E5EB;
+    padding:1% 5%;
+    border: none;
+    font-weight: bold;
+}
+
+#introImage img {
+    width:100%;
+}
+
+main    {
+    text-align: center;
+    margin: 0;
+}
+
+.maingrid1  {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1F2936;
+    text-align: left;
+    color:#E4E5EB;
+    padding:5% 0%;
+    border-top: solid #41464D 1px;
+}
+
+.maingrid1  div{
+    margin: 0% 20%;
+}
+
+.maingrid2  {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin: 1% auto;
+    width: 60%;
+}
+
+.maingrid2  div {
+    margin: 10% 5%;
+}
+
+.maingrid3  {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin: 1% auto;
+    width: 60%;
+}
+
+.maingrid3  div {
+    margin: 10% 5%;
+}
+
+#inspiringQuote {
+    background-color: #9B9FA2;
+    width: 70%;
+    margin: 5% auto;
+    padding:8%;
+    text-shadow: 1px 1px 1px #41464D;
+}
+
+#inspiringQuote    p    {
+    width:70%;
+    margin: auto;
+}
+
+#inspiringQuote span {
+    position: absolute;
+    margin: 5% 0 0 10%;
+    text-shadow: none;
+}
+
+#callToAction   {
+    width: 60%;
+    margin: 5% auto;
+    padding: 1%;
+    background-color: #3782F5;
+    color:#E4E5EB;
+    border-radius: 9px;
+    text-align: left;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bluebox    {
+    border:solid #3782F5 4px;
+    border-radius: 4%;
+    width: 100%;
+    margin: auto;
+}
+
+#callToAction button  {
+    border-radius: 6px;
+    background-color: #3782F5;
+    color: #E4E5EB;
+    padding:1% 5%;
+    border:solid #E4E5EB 3px;    
+}
+
+footer  {
+    background-color: #1F2936;
+    padding: 5%;
+    text-align: center;
+    color:#E4E5EB
+}
+
+.postGrid {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.postTitle {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #41464D;
+}
+
+.city {
+    background-color: #9B9FA2;
+    margin-top: 1%;
+}
